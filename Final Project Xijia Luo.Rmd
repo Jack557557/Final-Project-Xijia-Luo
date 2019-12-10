@@ -1,7 +1,7 @@
 ---
-title: "Activity: Penny vs Nickel Game"
+title: "Final Project"
 author: "Xijia Luo"
-date: "12/3/2019"
+date: "12/10/2019"
 output: html_notebook
 ---
 
@@ -9,14 +9,15 @@ output: html_notebook
 ```{r}
 # front matter
 rm(list = ls())
-
-# No packages for this assignment since we're practicing Base R
 ```
 
 
-# Activity
+# Data information and input
 
-This activity is based on homework assigned to Dr. Beckman's daughter by her 1st grade teacher.  The assignment is essentially a game that uses spinners to teach students about some basic foundations of probability.  
+This data set is about League of Legends competitive matches between 2015-2017. The matches include the NALCS, EULCS, LCK, LMS, and CBLoL leagues as well as the World Championship and Mid-Season Invitational tournaments.
+```{r}
+read.csv
+```
 
 ## Part 1: Play the game with a partner (or two) to learn how it works.  
 
